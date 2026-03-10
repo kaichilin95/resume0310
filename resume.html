@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>林愷淇 Kai-Qi Lin | 個人履歷</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #e67e22; /* 溫暖的橘色調，呼應秋香色的質感 */
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        /* 標題區 */
+        header {
+            background: var(--primary-color);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* 內容區佈局 */
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+            padding: 40px;
+        }
+
+        /* 左側欄 */
+        .sidebar h3 {
+            border-bottom: 2px solid var(--accent-color);
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            color: var(--primary-color);
+        }
+
+        .info-group {
+            margin-bottom: 25px;
+        }
+
+        .info-item {
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background: #eee;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin: 0 5px 5px 0;
+            font-size: 0.85rem;
+        }
+
+        /* 右側主欄 */
+        .main-content section {
+            margin-bottom: 30px;
+        }
+
+        .main-content h2 {
+            color: var(--primary-color);
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .experience-item h4 {
+            color: var(--secondary-color);
+            font-size: 1.1rem;
+        }
+
+        .date {
+            font-size: 0.85rem;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        /* 按鈕與互動 */
+        .print-btn {
+            display: block;
+            width: 120px;
+            margin: 20px auto;
+            padding: 10px;
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            transition:
